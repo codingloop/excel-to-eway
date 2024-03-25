@@ -2,7 +2,7 @@ import pandas as pd
 
 from pdf_gen.main import PDFCreate
 
-p = r"I:\Projects\Viveks\PDFGen\data.xlsx"
+p = r"I:\Projects\Viveks\PDFGen\final_data.xlsx"
 
 
 if __name__ == '__main__':
@@ -20,5 +20,3 @@ if __name__ == '__main__':
             print(e)
             print(f"{index} - {str(row)}")
             print("--------------------------")
-
-        break
